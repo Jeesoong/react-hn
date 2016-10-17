@@ -15,6 +15,7 @@ module.exports = {
         cacheDirectory: true
       }
     },
+    publicPath: '/react-hn',
     aliases: {
       'react': 'react-lite',
       'react-dom': 'react-lite',
