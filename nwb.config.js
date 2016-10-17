@@ -15,6 +15,10 @@ module.exports = {
         cacheDirectory: true
       }
     },
+    aliases: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite',
+    },
     plugins: {
       define: {
         __VERSION__: JSON.stringify(require('./package.json').version)
